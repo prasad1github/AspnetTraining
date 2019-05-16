@@ -1,0 +1,61 @@
+﻿body {
+}
+
+/*div {
+    width:200px;
+    height:200px;
+    background-color:aqua;
+}*/
+
+.ClassLoginDiv {
+    position: absolute;
+    /*background-color: #808080;*/
+    background: linear-gradient(#2e2b2b,#5f5959);
+    border: groove;
+    color: white;
+    width: 390px;
+    height: 250px;
+    margin: 200px 590px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 15px;    
+}
+
+    .ClassLoginDiv:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.ClassButton {
+    width: 90px;
+    height: 40px;
+    background-color: #4CAF50;
+    background: linear-gradient(#4CAF50,#3bd848);
+    color: white;
+    border: 2px solid;
+    /*border-radius: 7px;*/
+    border-radius: 0px 15px;
+    font-size: 16px;    
+}
+
+    .ClassButton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        /*background:linear-gradient(#007acc,#24a0f3);*/
+        background: linear-gradient(#3bd848,#6fd420);
+    }
+
+
+.ClassTextboxes {
+    height: 30px;
+    width: 211px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    border-radius: 15px;
+    background: linear-gradient(rgba(0,0,0,0.24),rgba(0,0,0,0.19));
+    color: white;
+}
+
+.ClassSignText {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
